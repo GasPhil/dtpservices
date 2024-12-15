@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.counter-section {
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+}
+
+.counter-item {
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.counter-item:hover {
+  transform: scale(1.05);
+}
+
+/* Γενικές ρυθμίσεις για όλα τα εικονίδια */
+.counter-icon {
+  display: block;
+  margin: 0 auto; /* Κεντράρισμα εικόνων */
+}
+
+/* Μεγάλο εικονίδιο */
+.icon-large {
+  width: auto;
+  height: 60px;
+  margin-bottom: 30px; /* Απόσταση από το κείμενο */
+}
+
+/* Μεσαίο εικονίδιο */
+.icon-medium {
+  width: auto;
+  height: 70px;
+  margin-bottom: 5px; /* Απόσταση από το κείμενο */
+}
+
+/* Μικρό εικονίδιο */
+.icon-small {
+  width: auto;
+  height: 70px;
+  margin-bottom: 15px; /* Απόσταση από το κείμενο */
+}
+  margin-bottom: 10px; /* Απόσταση από το κείμενο */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.counter-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  margin-top: 0.5rem;
+  color: #666;
+}
